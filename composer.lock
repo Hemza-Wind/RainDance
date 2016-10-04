@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ed9df8b872992035f068a7fe461a635a",
-    "content-hash": "76036da3b5b55b91dbe1e1affa01bf9e",
+    "hash": "b6d60514ea81bf74fa9205bea2a1f285",
+    "content-hash": "bbf8dfee1ee4b672d6fafaf2e6cda633",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -160,6 +160,50 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "guhelski/forecast-php",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guhelski/forecast-php.git",
+                "reference": "7e2ec92484380be20b8f9a6ec5654b820e1d5d67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guhelski/forecast-php/zipball/7e2ec92484380be20b8f9a6ec5654b820e1d5d67",
+                "reference": "7e2ec92484380be20b8f9a6ec5654b820e1d5d67",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Uhelski",
+                    "email": "guilherme@uhelski.org",
+                    "homepage": "http://uhelski.org"
+                }
+            ],
+            "description": "Drop dead simple DarkSky.net API v2 wrapper in PHP",
+            "keywords": [
+                "darksky",
+                "darksky.net",
+                "forecast",
+                "forecast.io",
+                "weather"
+            ],
+            "time": "2016-09-26 04:35:15"
         },
         {
             "name": "jakub-onderka/php-console-color",
