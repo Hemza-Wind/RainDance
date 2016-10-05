@@ -8,7 +8,8 @@
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
-        "guhelski/forecast-php": "^1.1"
+        "guhelski/forecast-php": "^1.1",
+        "torann/geoip": "^1.0"
         
     },
     "require-dev": {
