@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('Home');
-});
+
+
+
+
+Route::get('/' , 'ForecastController@weatherForecast');
