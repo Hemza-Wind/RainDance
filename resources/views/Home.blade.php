@@ -17,10 +17,11 @@
                 <div class="title m-b-md">
                     RainDance
                 </div>
-            <?php
-                 //echo $kid;
-                var_dump($forecast->get('37.8267','-122.423'));
-                ?>
+
+                <p> {{ $value['minutely']['summary'] }}</p>
+              <?php //$value = json_encode($forecast->get('37.8267','-122.423'), true);?>
+
+
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>

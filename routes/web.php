@@ -11,8 +11,4 @@
 |
 */
 
-
-
-
-
 Route::get('/' , 'ForecastController@weatherForecast');
